@@ -1,87 +1,105 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  background-color: #dfe3ee ;
-}
-.container{
-  background-color: #dfe3ee;
-  height: 100%;
-  width: 100%;
-}
-
-.fbtext{
-  margin-top: 100px;
-  padding: 20px;
-  height: 400px;
-  width: 50%;
-}
-
-h1{
-  margin-top: 100px;
-  color: #1877f2;
-  font-size: 65px;
-  font-family: sans-serif;
-}
-
-h2{
-  font-size: 25px;
-}
-h1,h2{
-  margin-left: 350px;
-}
-
-.inputform{
-  background-color: white;
-  padding: 15px;
-  height: 300px;
-  width: 45%;
-  margin-left: 850px;
-  margin-top: -200px;
-  border-radius: 8px;
-  text-align: center;
-
-}
-
-input[type=text]{
-  height: 40px;
-  width: 100%;
-  background-color: white;
-  border-radius: 5px;
-}
-
-input[type=password]{
-  height: 40px;
-  width: 100%;
-  background-color: white;
-  border-radius: 5px;
-
-}
-
-.libtn{
-  font-size: 20px;
-  background-color:#1877f2;
-  color: white;
-  border-radius: 5px;
-  height: 15%;
-  width: 100%;
-
-}
-
-.forpas{
+.learn {
   text-decoration: none;
-  background-color: white;
 }
 
-.cnabtn{
-  font-size: 20px;
-  background-color:#42b72a;
+#navop{
+  background-color: rgba(39,50,61, .44) !important;
+  opacity: 1;
+}
+
+.bgimg {
+  background-image: url("https://doc2uk.com/wp-content/uploads/2017/10/Meeting.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.blacktxt {
+  font-weight: bold;
+  font-size: large;
+}
+
+.ladydoc {
+  background-image: url("https://doc2uk.com/wp-content/uploads/2016/12/Woman-blue-coat.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+
+.docteam {
+  background-image: url("https://doc2uk.com/wp-content/uploads/2016/12/Team-woman-front.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 678px;
+}
+
+
+.wehelp {
+  margin-top: 80px;
+  padding: 40px 40px 40px 40px;
+}
+
+.cvbtn{
+  background: linear-gradient(to bottom, #23518D 0%, #4989C1 100%);
+}
+
+.cvbtn:hover {
+  background:white;
+  color: #23518D;
+  /* background: linear-gradient(to bottom, #23518D 0%, #4989C1 100%); */
+}
+
+.lmorebtn {
+  background: #f2f2f2;
+} 
+
+.lmorebtn:hover{
+  background: grey;
+}
+
+.whyhire{
+  margin-top: 80px;
+  padding: 40px 40px 40px 40px;
+}
+
+footer{
+  background-color: #0d1f2d!important;
   color: white;
-  padding: 8px;
-  border-radius: 8px;
+  padding: 15px 20px;
+  margin-top: 180px;
 }
 
-h4{
-  margin-left: 900px;
-  margin-top: -50px;
+footer div a {
+  text-decoration: none;
+  color: white;
+}
 
+/* About us CSS */
+
+.pen{
+  background-image: url("https://doc2uk.wpengine.com/wp-content/themes/wicon/img/bc_back.jpg");
+  background-repeat: no-repeat;
+  height: 264px;
+}
+
+.tel{
+  background-image: url("https://doc2uk.com/wp-content/uploads/2016/12/Telephone-box.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 266px;
+}
+
+.imgdiv{
+  height: 400px;
+}
+
+.map{
+  background-image: url("https://doc2uk.com/wp-content/uploads/2017/10/map.png");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginpad{
+  padding: 20px;
 }
